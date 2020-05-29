@@ -6,6 +6,7 @@ def oxford_comma(array)
      return array.join(" and ") 
   else 
     array.each do |word| 
+      each_with_index
     end
     
   end
