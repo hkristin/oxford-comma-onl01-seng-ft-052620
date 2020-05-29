@@ -10,7 +10,7 @@ def oxford_comma(array)
         return_string << "and 
         #{word}."
       else 
-        return_string << "{word},"
+        return_string << "#{word},"
       end
     end
     
