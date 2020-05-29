@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  let return_string = ""
+  return_string = ""
   if array.length == 1
     array[0]
     elsif array.length == 2 
