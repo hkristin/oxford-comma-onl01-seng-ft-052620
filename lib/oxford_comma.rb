@@ -5,8 +5,12 @@ def oxford_comma(array)
   elsif array.length == 2 
      return array.join(" and ") 
   else 
-    array.each do |word| 
-      each_with_index
+    array.each_with_index do |word, index|
+      if index == array.length-1
+        return_string << "and 
+        #{word}."
+      else 
+        return_string << "{word},"
     end
     
   end
