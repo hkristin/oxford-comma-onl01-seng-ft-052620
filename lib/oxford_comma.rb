@@ -11,6 +11,7 @@ def oxford_comma(array)
         #{word}."
       else 
         return_string << "{word},"
+      end
     end
     
   end
